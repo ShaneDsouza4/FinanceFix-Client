@@ -8,6 +8,7 @@ import { BudgetDetailsComponent } from './pages/budget-details/budget-details.co
 import { RegisterAccountComponent } from './pages/register-account/register-account.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FormWrapperComponent } from './components/form-wrapper/form-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     BudgetDetailsComponent,
     RegisterAccountComponent,
     NavBarComponent,
+    FormWrapperComponent,
   ],
   imports: [
     BrowserModule,
