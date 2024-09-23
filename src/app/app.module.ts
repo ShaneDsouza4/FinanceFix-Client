@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { BudgetDetailsComponent } from './pages/budget-details/budget-details.component';
 import { RegisterAccountComponent } from './pages/register-account/register-account.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     BudgetDetailsComponent,
     RegisterAccountComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
