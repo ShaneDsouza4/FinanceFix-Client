@@ -1,12 +1,13 @@
 <nav class="flex justify-between item-center p-6">
-    <div class="logo p-2 cursor-pointer items-center gap-x-2">
-        <img class="w-6 h-6"
-            src="https://codinginpublic.dev/projects/react-router-budget-app/assets/logomark-011cf1db.svg" />
-        <p class="text-2xl font-bold">FinanceFix</p>
+    <div (click)="router.navigateByUrl('')" class="logo p-2 cursor-pointer items-center gap-x-2">
+        <!-- <img class="w-6 h-6" src="https://codinginpublic.dev/projects/react-router-budget-app/assets/logomark-011cf1db.svg" /> -->
+        <img class="h-10" src="../../../assets/images/FinanceFix-Logo.png">
+        <!-- <p class="text-2xl font-bold">FinanceFix</p> -->
     </div>
 
+
     <button *ngIf="_userService.isLoggedIn()" (click)="_userService.deleteUserAccount()" class="btn btn-warning">
-        Delete User
+        Delete Account
     </button>
 
 </nav>

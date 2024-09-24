@@ -3,6 +3,7 @@
         <div [formGroup]="accountForm" class="left-section flex flex-col flex-1 gap-y-4">
             <h1 class="text-[72px] font-bold">Take Control of <span class="text-customHsl-accent">Your Money</span></h1>
             <p class="text-2xl">Personal Budgeting is the secret to Financial Freedom. Get Started today!</p>
+            <span>This is Proof of Concept, you may test the application by simply entering your name.</span>
             <input formControlName="name" type="text" class="input-select" placeholder="Enter account name" />
 
             <button [disabled]="accountForm.invalid" (click)="createAccount()"
@@ -11,7 +12,8 @@
             </button>
         </div>
         <div class="right-section flex-1">
-            <img src="assets/images/budgeting_set_2.jpg">
+            <!--  <img src="assets/images/budgeting_set_2.jpg"> -->
+            <img src="assets/images/FinanceFix-Hero.png">
         </div>
     </div>
 </div>

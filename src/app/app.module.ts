@@ -9,6 +9,8 @@ import { RegisterAccountComponent } from './pages/register-account/register-acco
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormWrapperComponent } from './components/form-wrapper/form-wrapper.component';
+import { BudgetCardComponent } from './components/budget-card/budget-card.component';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { FormWrapperComponent } from './components/form-wrapper/form-wrapper.com
     RegisterAccountComponent,
     NavBarComponent,
     FormWrapperComponent,
+    BudgetCardComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
